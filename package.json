@@ -4,11 +4,7 @@
   "description": "twitch clone in react",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all start-api start-client",
-    "start-rtmpserver": "(cd rtmpserver && npm start)",
-    "start-api": "(cd api && npm start)",
-    "start-client": "(cd client && npm start)",
-    "dev": "concurrently \"cd rtmpserver && npm start\" \"cd api && npm start\" \"cd client && npm start\""
+    "start": "concurrently \"cd rtmpserver && npm start\" \"cd api && npm start\" \"cd client && npm start\""
   },
   "author": "Abhishek Bhardwaj",
   "license": "ISC",
